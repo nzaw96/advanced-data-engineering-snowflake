@@ -340,3 +340,5 @@ FROM @{{env}}_tasty_bytes.public.s3load/raw_pos/subset_order_header/;
 -- order_detail table load
 COPY INTO {{env}}_tasty_bytes.raw_pos.order_detail
 FROM @{{env}}_tasty_bytes.public.s3load/raw_pos/subset_order_detail/;
+
+---adding this comment to test Github Actions
